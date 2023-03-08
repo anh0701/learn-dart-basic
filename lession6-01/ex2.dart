@@ -25,9 +25,14 @@ class House {
 }
 
 void main(List<String> args) {
+  var array = <House>[];
   for (int i = 0; i < 3; i++) {
     House lt1 = House();
     lt1.insert();
-    lt1.display();
+    array.add(lt1);
+    // lt1.display();
+  }
+  for (var i = 0; i < array.length; i++) {
+    array[i].display();
   }
 }
