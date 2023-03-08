@@ -19,7 +19,7 @@ void main(List<String> args) {
   cam.id = 1;
   cam.brand = "HP";
   cam.color = "dark";
-  cam.prize = "12000000";
+  cam.prize = "1200000";
   print("info cam: ${cam.id} ${cam.info} ");
   Camera cam1 = Camera();
   cam1.id = 2;

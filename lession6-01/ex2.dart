@@ -11,11 +11,11 @@ class House {
   }
 
   void insert() {
-    print("Nhap id: ");
+    print("Nhap id : ");
     this.id = int.parse(stdin.readLineSync()!);
-    print("Nhap name: ");
+    print("Nhap name : ");
     this.name = stdin.readLineSync()!;
-    print("Nhap prize: ");
+    print("Nhap prize : ");
     this.prize = stdin.readLineSync()!;
   }
 

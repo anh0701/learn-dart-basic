@@ -18,6 +18,6 @@ class Cat extends Animal {
 }
 
 void main(List<String> args) {
-  Cat cat = Cat(1, "Heo", "white", "meow meow");
+  Cat cat = Cat(1, "Heog", "white", "meow meow");
   cat.display();
 }
